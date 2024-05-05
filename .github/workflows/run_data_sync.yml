@@ -95,7 +95,7 @@ jobs:
       - name: Run sync Joyrun script
         if: env.RUN_TYPE == 'joyrun'
         run: |
-          python run_page/joyrun_sync.py ${{ secrets.JOYRUN_UID }} ${{ secrets.JOYRUN_SID }} --with-gpx --from-uid-sid
+          python run_page/joyrun_sync.py ${{ secrets.JOYRUN_UID }} ${{ secrets.JOYRUN_SID }} --with-gpx
           
       - name: Run sync Nike to Strava(Run with nike data backup and show with strava)
         if: env.RUN_TYPE == 'nike_to_strava'
