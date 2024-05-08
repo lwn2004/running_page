@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/running_page/',
+  pathPrefix: '/running_page',
   siteMetadata: {
     siteTitle: 'Running Page',
     siteUrl: 'https://run.linwn.net',
